@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <AssemblyName>DogTag</AssemblyName>
+    <StartupObject>DogTag.DesktopHud</StartupObject>
+    <RootNamespace>DogTag</RootNamespace>
+    <Product>DogTag</Product>
+    <AssemblyTitle>DogTag</AssemblyTitle>
+    <Version>1.1.0</Version>
+    <Description>Desktop system tag. Click-through, pinned to the desktop.</Description>
+    <ApplicationIcon>DogTag.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DogTag.png" LogicalName="DogTag.png" />
+    <Compile Remove="Launcher\**\*.cs" />
+  </ItemGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+</Project>
