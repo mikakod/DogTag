@@ -65,13 +65,7 @@ Note: `Windows Forms` doesn't yet support trimming/AOT, so self-contained builds
 ## Build & run
 Requires [.NET 10 SDK](https://dotnet.microsoft.com/download) with Windows desktop workload.
 
-```bat
-run_dogtag.bat
-```
-
-This builds `final_source/DogTag.csproj` and launches `DogTag.exe`.
-
-Or manually:
+Build:
 
 ```bash
 cd final_source
