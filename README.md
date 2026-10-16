@@ -2,7 +2,7 @@
 
 A small, very fast, highly customizable desktop utility/widget that shows system info on your Windows computer.
 
-It pins itself to a corner of the screen, ignores mouse clicks, and stays out of the way — kind of like a desktop system tag. It can sit on top of everything, blend in and hide behind your desktop shortcuts.
+It pins itself to wherever you want on the screen, ignores mouse clicks, and stays out of the way — kind of like a desktop system tag. It can sit on top of everything, blend in and hide behind your desktop shortcuts.
 
 <table>
   <tr>
