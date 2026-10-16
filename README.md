@@ -57,7 +57,7 @@ Also has a system tray icon: left-click for settings, right-click for the menu, 
 
 ## Release builds
 - `DogTag.exe` -- framework-dependent (~0.3 MB). Requires the .NET 10 Desktop Runtime. Windows prompts to download if missing.
-- `DogTag_standalone.exe` -- fully self-contained (~116 MB), no runtime needed.
+- `DogTag_portable.exe` -- fully self-contained (~116 MB), no runtime needed.
 
 
 Note: `Windows Forms` doesn't yet support trimming/AOT, so self-contained builds can't get much smaller than ~100 MB. If you ship yourself, expect either the large bundle or the tiny framework-dependent file plus a runtime dependency(.net Desktop 10 Runtime).
