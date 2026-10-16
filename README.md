@@ -4,6 +4,19 @@ A small, very fast, highly customizable desktop utility/widget that shows system
 
 It pins itself to a corner of the screen, ignores mouse clicks, and stays out of the way — kind of like a desktop system tag. It can sit on top of everything, blend in and hide behind your desktop shortcuts.
 
+<table>
+  <tr>
+    <td align="center">
+      <bExample</b><br>
+      <img src="https://i.imgur.com/GbJuKS7.jpeg" width="400" alt="Preview">
+    </td>
+    <td align="center">
+      <b>Settings</b><br>
+      <img src="https://i.imgur.com/Enm940M.jpeg" width="400" alt="Settings">
+    </td>
+  </tr>
+</table>
+
 
 ## What it shows
 - Title (can be hidden)
